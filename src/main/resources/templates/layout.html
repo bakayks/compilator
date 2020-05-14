@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Compilator</title>
+    <link rel="stylesheet" href="/assets/libs/css/style.css">
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+</head>
+<body>
+<!-- ============================================================== -->
+<!-- main wrapper -->
+<!-- ============================================================== -->
+<div class="dashboard-main-wrapper">
+    <!-- ============================================================== -->
+    <!-- header -->
+    <!-- ============================================================== -->
+    <div th:replace="fragments/header :: header"></div>
+    <!-- ============================================================== -->
+    <!-- end header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- left sidebar -->
+    <!-- ============================================================== -->
+    <div  th:replace="fragments/leftMenu :: leftMenu"></div>
+    <!-- ============================================================== -->
+    <!-- end header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- left sidebar -->
+    <!-- ============================================================== -->
+    <div class="dashboard-wrapper">
+        <br>
+        <!-- ============================================================== -->
+        <!-- content -->
+        <!-- ============================================================== -->
+        <div layout:fragment="content">
+            <!-- ============================================================================ -->
+            <!--            PUT ALL CONTENT PART INTO THIS LAYOUT:FRAGMENT                    -->
+            <!-- ============================================================================ -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- end content -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- end wrapper  -->
+    <!-- ============================================================== -->
+</div>
+<!-- ============================================================== -->
+<!-- end main wrapper  -->
+<!-- ============================================================== -->
+<!-- Optional JavaScript -->
+<!-- jquery 3.4.1 -->
+<!-- Footer -->
+<footer class="py-4 bg-light ">
+    <div class="container">
+        <p class="m-0 text-center text-grey">Проект выполнили: Нурманбетов Бекболот, Кыдырбек уулу Бакай</p>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="/assets/libs/js/main-js.js"></script>
+<script src="/assets/fontawesome/js/all.js"></script>
+</body>
+</html>
